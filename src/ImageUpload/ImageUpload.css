@@ -1,0 +1,14 @@
+.image-upload{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width:60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.progressbar{
+    width:100%;
+}

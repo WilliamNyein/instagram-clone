@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+}
+
+.App{
+  background-color: #fafafa;
+  height: auto;
+}
+
+.header-image{
+  object-fit: contain;
+  width:100px;
+  padding:20px;
+}
+
+.app-posts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-header{
+  position: sticky;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+.signup-button{
+  height: 30px;
+  font-size:1rem;
+  letter-spacing: 1px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.app-signup{
+  display: flex;
+  flex-direction: column;
+}
+
+.app-headerimage{
+  object-fit: contain;
+  width:100px;
+}

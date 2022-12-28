@@ -1,0 +1,57 @@
+.post-header{
+    display: flex;
+    align-items: center;
+    padding:20px;
+    gap:10px;
+    
+}
+
+.comment-input{
+    flex:1;
+    border:none;
+    border-top:1px solid lightgray;
+    outline: none;
+}
+
+.post-comments{
+    padding: 10px;
+}
+
+.comment-button{
+    flex:0;
+    border:none;
+    border-top:1px solid lightgray;
+    border-left: 1px solid lightgray;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.comment-box{
+    display: flex;
+    margin-top: 20px;
+    height:40px;
+}
+
+.post-image{
+    width:100%;
+    object-fit: contain;
+    border-top:1px solid lightgray;
+    border-bottom:1px solid lightgray;
+}
+
+.post-text{
+    padding:20px;
+}
+
+.post{
+    background-color:white;
+    margin:20px 0;
+    border:1px solid lightgray;
+    max-width: 500px;
+    margin-bottom: 45px;
+}
+
+.post-text{
+    font-weight: normal;
+    padding:10px;
+}
